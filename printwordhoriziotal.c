@@ -27,7 +27,7 @@ int main()
                     if (  (i>a && (j==1||j==n))  ||   i == a  ||   (j>a && (j-i==a-1))  ||   (j<=a && (i+j==a+1))   )
 
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -41,7 +41,7 @@ int main()
                 {
                     if (   j==1   ||   j<n && (i==1||i==a||i==n)   ||   j==n && (i>1&&i!=a&&i!= n)   )
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -56,7 +56,7 @@ int main()
                     if (j == 1 && i > 1 && i != n || (i == 1 || i == n) && j > 1)
 
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -72,7 +72,7 @@ int main()
                     if (j == 1 || ((i == 1 || i == n) && (j <= a + 1)) || j - i == a || i + j == n + a + 1 || i == a && i + j == n + a)
 
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -88,7 +88,7 @@ int main()
                     if (j == 1 || i == 1 || i == a || i == n)
 
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -104,7 +104,7 @@ int main()
                     if (j == 1 || i == 1 || i == a && j < n - 1)
 
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -118,7 +118,7 @@ int main()
                 {
                     if (j == 1 && i > 1 && i != n || (i == 1 || i == n) && j > 1 || j == n && i > a || j > a - 1 && i == a)
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -132,7 +132,7 @@ int main()
                 {
                     if (j == 1 || j == n || i == a)
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -148,7 +148,7 @@ int main()
                 {
                     if (i == 1 || i == n || j == a)
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -162,7 +162,7 @@ int main()
                 {
                     if (i == 1 || j == n && i < n || i == n && j != n || i > a && (i > a / 2 && j == 1))
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -176,7 +176,7 @@ int main()
                 {
                     if (j == 1 || i + j == W || i == a && i + j == n - 1)
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -190,7 +190,7 @@ int main()
                 {
                     if (j == 1 || i == n)
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -206,7 +206,7 @@ int main()
                     if (j == 1 || j == n || i <= a && (i == j || i + j == n + 1))
 
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -220,7 +220,7 @@ int main()
                 {
                     if (j == 1 || j == n || i == j)
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -234,7 +234,7 @@ int main()
                 {
                     if ((i == 1 || i == n) && (j > 1 && j != n) || (j == 1 || j == n) && (i > 1 && i != n))
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -248,7 +248,7 @@ int main()
                 {
                     if (j == 1 || (i == 1 && j < n) || (i == a && j < n) || (j == n && (i < a && i != 1)))
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -264,7 +264,7 @@ int main()
                     if ((i == 1 || i == n - 1) && (j > 1 && j != n) || (j == 1 || j == n) && (i != 1 && i < n - 1) || i > a && i == j)
 
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -280,7 +280,7 @@ int main()
                     if (i <= a && (i == 1 && j < n || i == a && j < n || j == n && (i > 1 && i != a)) || j == 1 || (i > a && i == j))
 
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -295,7 +295,7 @@ int main()
                     if ((j > 1 && (i == 1 || (i == a && j != n))) || (i > 1 && i != n && ((i < a && j == 1) || (i > a && j == n))) || (i == n && j != n))
 
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -310,7 +310,7 @@ int main()
                     if (i == 1 || j == a)
 
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -325,7 +325,7 @@ int main()
                     if (i <= a + 1 && (j == 1 || j == n) || i > a && (i - j == a || i + j == n + a + 1) || (i == n && j == a))
 
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -339,7 +339,7 @@ int main()
                 {
                     if (i % 2 != 0 && ((j >= a && i + j == w) || (j <= a && i + j == v)))
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -354,7 +354,7 @@ int main()
                     if (j == 1 || j == n || i >= a && (i + j == n + 1 || i - j == 0))
 
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -369,7 +369,7 @@ int main()
                     if (i == j || i + j == n + 1)
 
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -384,7 +384,7 @@ int main()
                     if (i >= a && j == a || (i < a && (i == j || i + j == n + 1)))
 
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
@@ -399,7 +399,7 @@ int main()
                 {
                     if (i == 1 || i == n || i + j == n + 1)
                     {
-                        printf("*");
+                        printf("\4");
                     }
                     else
                         printf(" ");
