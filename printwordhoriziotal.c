@@ -21,6 +21,20 @@ int main()
             switch (nam)
             {
 
+
+            case 'a':
+
+                for (int j = 1; j <= n; j++)
+                {
+                    if (i == a && j != 1 && j != n && j != n - 1 || (j == 1 || j == n - 2) && i > a && i != n || (i == n && j != 1 && j != n - 2))
+                        printf("\4");
+                    else
+                        printf(" ");
+                }
+                printf("  ");
+                // small a lettter
+                break;
+
             case 'A': // A letter
                 for (int j = 1; j <= n; j++)
                 {
